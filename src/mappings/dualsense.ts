@@ -1,0 +1,27 @@
+export enum DualSenseButtons {
+  ACTION_CROSS = 0,
+  ACTION_CIRCLE = 1,
+  ACTION_SQUARE = 2,
+  ACTION_TRIANGLE = 3,
+  SHOULDER_L1 = 4,
+  SHOULDER_R1 = 5,
+  TRIGGER_L1 = 6,
+  TRIGGER_R1 = 7,
+  CREATE = 8,
+  OPTIONS = 9,
+  STICK_L3 = 10,
+  STICK_R3 = 11,
+  DIRECTION_UP = 12,
+  DIRECTION_DOWN = 13,
+  DIRECTION_LEFT = 14,
+  DIRECTION_RIGHT = 15,
+  BUTTON_PS = 16,
+  TOUCH_PAD = 17,
+}
+
+export enum DualSenseSticks {
+  STICK_L_AXIS_X = 0,
+  STICK_L_AXIS_Y = 1,
+  STICK_R_AXIS_X = 2,
+  STICK_R_AXIS_Y = 3,
+}
